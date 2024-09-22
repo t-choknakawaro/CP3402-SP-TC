@@ -1,0 +1,89 @@
+/*
+Theme Name: Child Theme
+Template: twentytwentyfour
+*/
+
+body {
+    background-color: #fef9e6 !important;
+    font-family: 'Arial', sans-serif !important;
+}
+
+h1 {
+	color: #004ea1 !important;
+	font-size: 3.5rem !important;
+    text-align: center !important;
+    margin: 20px 0 !important;
+}
+
+h2, h3, h4, h5, {
+    color: #004ea1 !important;
+
+}
+
+h6 {
+    color: #000000 !important; 
+    font-size: 1rem !important; 
+    text-align: left !important; 
+    font-family: 'Arial', sans-serif !important;
+}
+
+p {
+    color: #000000 !important;
+    line-height: 1.8 !important;
+    text-align: center !important;
+    margin: 15px 0 !important;
+}
+
+button, .wp-block-button__link {
+    background-color: #005cbf !important;
+    color: #fcc000 !important;
+    border: none !important;
+    padding: 12px 24px !important;
+    border-radius: 8px !important;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .wp-block-button__link:hover {
+    background-color: #ffffff !important;
+    color: #005cbf !important;
+}
+
+.custom-footer, .site-footer, footer {
+    text-align: left !important; 
+    color: #ffffff !important; 
+    font-size: 1.5rem !important; 
+}
+
+.custom-footer a, .site-footer a, footer a {
+    color: #000000 !important; 
+    font-weight: bold !important; 
+}
+
+.custom-footer a:hover, .site-footer a:hover, footer a:hover {
+    color: #ffffff !important; 
+    text-decoration: underline !important; 
+}
+
+.site {
+    max-width: 1200px !important; 
+    margin: 0 auto !important; 
+}
+
+.flex-container {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.flex-container > * {
+    order: 1; 
+}
+
+.flex-container .site-navigation {
+    order: 2; 
+}
+
+.flex-container .site-footer {
+    order: 1; 
+    display: block !important;
+    justify-content: flex-start !important;
+}
