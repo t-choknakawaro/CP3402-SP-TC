@@ -54,6 +54,8 @@ Key customizations for the U3A Child Theme include:
 3. **Activate the Theme**: Go to Appearance > Themes in WordPress, and activate.
 
 ### Deployment Hosting
+I chose to use Google Cloud Platform because it offered a free trial and had a feature directly related to WordPress: the "Click to Deploy" option. I felt this was the easiest solution, which is why I decided to go with it.
+
 While working on the site, I made an early decision to host the site before completing all the development. My intention was to allow time for troubleshooting in case any issues arose. However, instead of hosting the existing site, I mistakenly ended up with a new site and a new IP address.
 
 After that, I understood that hosting should be done first in the project rather than after site development. However, after reviewing the instructions, I realized that hosting could have also been done later, once the site was fully built. Unfortunately, I didn’t fully understand the problem at the time, and as the deadline approached, I didn’t seek assistance. As a result, the website was directly deployed on the host without a local development environment.
